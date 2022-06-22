@@ -1,0 +1,244 @@
+/* Змінні для кольорів */
+:root {
+    --white: #FFFFFF;
+    --background-accent: #2F303A;
+    --background-grey: #F5F4FA;
+    --text-color-main: #212121;
+    --text-color: #757575;
+    --accent-text-color: #2196F3;
+    --adress-color: rgba(255, 255, 255, 0.6)
+}
+
+/* Колір і шрифт для body */
+
+body {
+    background-color: var(--white);
+    color: var(--text-color-main);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    }
+/* Стилізація header */
+/* logo */
+.logo {
+    color: var(--text-color-main);
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.logo .web {
+    color: var(--accent-text-color);
+}
+
+/* Посилання по сайту */
+.nav-list {
+    list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.link {
+    text-decoration: none;
+    color: var(--text-color-main);
+}
+.nav-list .link.current {
+    color: var(--accent-text-color);
+}
+.link:hover,
+.link:focus {
+    color: var(--accent-text-color);
+}
+
+.address {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.address:hover,
+.address:focus {
+    color: var(--accent-text-color);
+}
+.address-list {
+    list-style: none;
+}
+
+/* hero */
+
+.hero {
+    background-color: var(--background-accent);
+}
+.hero-title {
+    color: var(--white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.button-order {
+    background-color:var(--accent-text-color);
+    color: var(--white);
+
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex; 
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin: 0 auto;
+}
+
+ .button-order:hover,
+ .button-order:focus {
+    border: none;
+ }
+
+
+/* Наші переваги */
+
+.benefits-list {
+    list-style: none;
+}
+
+.benefits-list .title {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.benefits-list .text {
+    color: var(--text-color);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+
+/* Наші послуги */ 
+.services {
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+}
+.services-list {
+    list-style: none;
+}
+/* Наша команда */
+.section-team {
+    background-color: var(--background-grey);
+}
+.team-list {
+    list-style: none;
+}
+.team-list .text {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.2;    
+    text-align: center;
+}
+.team-list .name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+ 
+/* footer */
+.page-footer {
+        background-color: var(--background-accent);
+}
+.contact {
+    font-style: inherit;
+}
+.contact-list {
+    list-style: none;
+}
+.contact-list .map {
+    color: var(--white);
+}
+
+.logo.footer {
+    color: var(--white)
+}
+
+.contact-list .connection {
+    color: var(--adress-color);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    vertical-align: top;
+}
+
+.contact-list .connection:hover,
+.contact-list .connection:focus {
+    color: var(--accent-text-color);
+}
+
+
+/* Сторінка портфоліо */
+/* Кнопки-фільтр */
+ .button-list {
+    list-style: none;
+} 
+
+.button-list .filter {
+    background-color: var(--background-grey);
+    border: none;
+
+    cursor: pointer;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+
+.button-list .filter:hover,
+.button-list .filter:focus {
+    background-color: var(--accent-text-color);
+    color: var(--white);
+    border: none;
+}
+.work {
+    list-style: none;
+}
+
+.work .work-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.work .work-filter {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
