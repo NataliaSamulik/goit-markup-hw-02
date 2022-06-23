@@ -55,6 +55,7 @@ body {
     text-decoration: none;
     color: var(--text-color);
     font-weight: 500;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -87,15 +88,11 @@ body {
 
     cursor: pointer;
 
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex; 
-    text-align: center;
     letter-spacing: 0.06em;
-    margin: 0 auto;
 }
 
  .button-order:hover,
@@ -139,6 +136,10 @@ body {
 .team-list {
     list-style: none;
 }
+.team-title {
+    font-size: 36px;
+    line-height: 1.17;
+}
 .team-list .text {
     color: var(--text-color);
     font-size: 16px;
@@ -163,6 +164,8 @@ body {
     list-style: none;
 }
 .contact-list .map {
+    font-size: 14px;
+    line-height: 1.71;
     color: var(--white);
 }
 
@@ -196,12 +199,10 @@ body {
 
     cursor: pointer;
     
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    text-align: center;
     letter-spacing: 0.03em;
 
 }
